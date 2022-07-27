@@ -12,12 +12,18 @@ public class Linguagem {
         private String image;
         private int ranking;
 
-        
+        public Linguagem() {
+            
+        }
 
         public Linguagem(String title, String image, int ranking) {
             this.title = title;
             this.image = image;
             this.ranking = ranking;
+        }
+
+        public String getId(){
+            return id;
         }
 
         public String getTitle() {
